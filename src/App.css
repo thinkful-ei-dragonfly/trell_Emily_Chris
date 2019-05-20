@@ -1,21 +1,19 @@
 .App {
-    display: flex;
-    margin: 40px;
-    min-height: calc(100vh - 80px);
-  }
+  min-height: calc(100vh - 16px);
+  min-width: calc(100vw - 16px);
+  background: #0079bf;
+  padding: 8px;
+  display: inline-flex;
+  flex-direction: column;
+}
 
-  .App {
-    display: flex;
-    margin: 40px;
-    min-height: calc(100vh - 80px);
-  }
-  
-  .left {
-    background-color: darkslategray;
-    color: azure;
-  }
-  
-  .right {
-    background-color: wheat;
-    color: firebrick;
-  }
+.App-header h1 {
+  margin: 0;
+  color: #f6f6f6;
+  font-size: 20px;
+  padding: 0 14px 10px;
+}
+
+.App-list {
+  display: flex;
+}
